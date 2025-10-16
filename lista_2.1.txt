@@ -55,3 +55,39 @@ FROM
 gry
 WHERE
 nazwa LIKE "*#*"
+
+zad.7
+
+SELECT 
+*
+FROM 
+gry
+WHERE 
+nazwa NOT LIKE "*miast*";
+
+zad.8
+
+SELECT 
+*
+FROM 
+gry
+WHERE 
+nazwa NOT LIKE "* *";
+
+zad.9
+
+SELECT 
+*
+FROM 
+gracze
+WHERE 
+wiek NOT LIKE "1*"
+AND 
+nazwisko LIKE "*mak*"
+OR
+wiek LIKE "*0"
+AND
+nazwisko NOT LIKE "*ski*"
+ORDER BY wiek ASC,
+nazwisko ASC,
+id_gracza DESC;
