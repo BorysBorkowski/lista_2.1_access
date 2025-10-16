@@ -87,7 +87,7 @@ nazwisko LIKE "*mak*"
 OR
 wiek LIKE "*0"
 AND
-nazwisko NOT LIKE "*ski*"
+nazwisko NOT LIKE "*ski"
 ORDER BY wiek ASC,
 nazwisko ASC,
 id_gracza DESC;
