@@ -1,0 +1,57 @@
+zad.1
+
+SELECT
+*
+FROM
+gracze
+WHERE
+imie LIKE "w*";
+
+zad.2
+
+SELECT
+* 
+FROM 
+gracze
+WHERE
+imie LIKE "*X"
+ORDER BY nazwisko ASC
+
+zad.3
+
+SELECT
+*
+FROM
+gry
+WHERE
+nazwa LIKE "*go*"
+ORDER BY kategoria ASC,
+id_gry DESC;
+
+zad.4
+
+SELECT
+*
+FROM
+gracze
+WHERE
+imie LIKE "m*"
+AND nazwisko LIKE "m*"
+
+zad.5
+
+SELECT
+*
+FROM
+gry
+WHERE
+nazwa LIKE "* *"
+
+zad.6
+
+SELECT
+*
+FROM
+gry
+WHERE
+nazwa LIKE "*#*"
